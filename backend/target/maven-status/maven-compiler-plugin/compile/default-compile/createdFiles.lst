@@ -1,0 +1,5 @@
+com\todofirebase\backend\todo\Todo.class
+com\todofirebase\backend\todo\TodoService.class
+com\todofirebase\backend\BackendApplication.class
+com\todofirebase\backend\todo\TodoController.class
+com\todofirebase\backend\todo\TodoRepository.class
