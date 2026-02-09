@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/todos")
-@CrossOrigin(origins = "http://localhost:5173") // Allow frontend access
+@CrossOrigin(origins = "*") // Allow frontend access from anywhere (GitHub Pages, localhost, Ngrok)
 public class TodoController {
 
     private final TodoService todoService;
