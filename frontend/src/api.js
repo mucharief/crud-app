@@ -3,7 +3,11 @@ import axios from 'axios';
 const API_URL = 'https://unneedfully-euchromatic-kaylin.ngrok-free.dev/api/todos';
 
 export const getTodos = async () => {
-    const response = await axios.get(API_URL);
+    const response = await axios.get(API_URL, {
+        headers: {
+            "ngrok-skip-browser-warning": "true"
+        }
+    });
     return response.data;
 };
 
